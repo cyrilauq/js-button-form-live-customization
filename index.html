@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/btn_css_form.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Button customization</h1>
+        </header>
+        <main>
+            <div id="btn_form" class="form_section">
+                <h2>Button content</h2>
+                <label class="form_title" for="btn_txt">Text (max 20 characters)</label>
+                <input name="text" id="btn_txt" />
+            </div>
+            <div id="btn_style_form" class="form_section">
+                <h2>Button style</h2>
+                <label class="form_title" for="btn_width">Width (en %)</label>
+                <input name="width" id="btn_width" type="number" />
+                <label class="form_title" for="btn_border_radius">Border radius (en px)</label>
+                <input name="width" id="btn_border_radius" type="number" />
+                <label class="form_title" for="btn_bg_color">Background color</label>
+                <input name="color" id="btn_bg_color" type="color" />
+                <label class="form_title" for="btn_txt_color">Text color</label>
+                <input name="color" id="btn_txt_color" type="color" />
+                <label class="form_title" for="btn_font_size">Font size (en pt)</label>
+                <input name="width" id="btn_font_size" type="number" />
+            </div>
+            <div id="rendering_section">
+                <h2>Style render</h2>
+                <button id="btn_render">Render</button>
+                <div>
+                    <h3>CSS code</h3>
+                    <code id="btn_css"></code>
+                    <button id="btn_copy_css">Copy</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
